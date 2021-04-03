@@ -1,25 +1,428 @@
 {
-  "1": {
-    "title": "Distinction entre ce qui dépend de nous et ce qui n’en dépend pas",
-    "content": [
-      "Parmi les choses, les unes dépendent de nous les autres n’en dépendent pas. Celles qui dépendent de nous, c’est l’opinion, le vouloir, le désir, l’aversion : en un mot tout ce qui est notre œuvre. Celles qui ne dépendent pas de nous, c’est le corps, les biens, la réputation, les dignités : en un mot tout ce qui n’est pas notre œuvre",
-      "Et les choses qui dépendent de nous sont par nature libres ; nul ne peut les empêcher, rien ne peut les entraver ; mais celles qui ne dépendent pas de nous sont impuissantes, esclaves, sujettes à empêchement, étrangères à nous",
-      "Souviens-toi donc que, si tu crois libres ces choses qui de leur nature sont esclaves, et propres à toi celles qui sont étrangères, tu seras entravé, affligé, troublé, tu accuseras dieux et hommes[4]. Mais si tu crois tien cela seul qui est tien, et étranger ce qui en effet t’est étranger, nul ne te forcera jamais à faire une chose, nul ne t’en empêchera ; tu ne te plaindras de personne, tu n’accuseras personne ; tu ne feras pas involontairement une seule action ; personne ne te nuira, et d’ennemi, tu n’en auras point, car tu ne pourras pas même souffrir rien de nuisible",
-      "Aspirant donc à de si grandes choses, souviens-toi que ce n’est pas avec une ardeur médiocre qu’il faut t’y appliquer : parmi les objets étrangers, tu dois pour jamais dire adieu aux uns, et pour le présent ajourner les autres[6]. Car, si tu veux avoir en même temps et les vrais biens et les dignités ou les richesses[7], peut-être n’obtiendras-tu même pas ces dernières pour avoir désiré les autres ; mais à coup sûr tu n’obtiendras pas les biens qui donnent seuls liberté et bonheur.",
-      "Aussitôt donc, devant toute imagination pénible, exerce-toi à dire : Tu es imagination et apparence, nullement l’objet que tu parais être. — Ensuite sonde-la, et juge-la avec les règles que tu possèdes : la première et la principale, c’est de voir s’il s’agit des choses qui dépendent de nous ou de celles qui n’en dépendent pas. S’agit-il de ces dernières, sois prêt à dire : Il n’y a rien là qui me regarde, moi"
-    ]
-  },
-  "2": {
-    "title": "Les choses qui ne dépendent pas de nous ne sont ni à désirer ni à craindre.",
-    "content": [
-      "Souviens-toi que ce qu’on se promet dans le désir, c’est d’obtenir l’objet désiré, ce qu’on se promet dans l’aversion, c’est d’éviter l’objet en aversion ; et celui qui est frustré dans son désir est malheureux, celui qui tombe dans ce qu’il fuit, misérable. Fuis donc seulement les choses qui, dépendant de toi, sont contraires à la nature, et tu ne tomberas point dans ce que tu fuis[9]. Mais si tu veux éviter la maladie, ou la mort, ou la pauvreté, tu seras misérable.",
-      "Écarte donc ton aversion de toutes les choses qui ne dépendent pas de nous, et reporte-la sur les choses qui, dépendant de nous, sont contraires à la nature. Quant au désir, supprime-le tout-à-fait en ce moment[10]. Car, si tu désires quelqu’une de ces choses qui ne dépendent pas de nous, tu seras nécessairement malheureux : et d’un autre côté, parmi les choses qui dépendent de nous et qu’il serait beau de désirer, aucune pour toi n’est encore présente[11]. Borne-toi donc à t’approcher ou à t’éloigner des choses par un mouvement volontaire, mais peu énergique, avec des réserves et en modérant ton élan[12]."
-    ]
-  },
-  "3": {
-    "title": "On doit examiner la nature de chaque objet dont on se sert.",
-    "content": [
-      "Devant chacun des objets qui attirent l’âme, ou qui apportent avec eux une utilité, ou qui se font chérir, souviens-toi de te demander quelle est la nature de cet objet. Commence par les petites choses, et si tu aimes un vase d’argile, dis : — C’est un vase d’argile que j’aime — ; car, s’il se brise, tu n’en seras pas troublé[13]. Si tu embrasses ton enfant ou ta femme, dis : — C’est un être humain que j’embrasse — ; car, s’il meurt, tu n’en seras pas troublé[14]."
-    ]
-  }
+  "chapters": [
+    {
+      "id": "1",
+      "title": "Distinction entre ce qui dépend de nous et ce qui n’en dépend pas",
+      "content": [
+        "Parmi les choses, les unes dépendent de nous les autres n’en dépendent pas. Celles qui dépendent de nous, c’est l’opinion, le vouloir, le désir, l’aversion : en un mot tout ce qui est notre œuvre. Celles qui ne dépendent pas de nous, c’est le corps, les biens, la réputation, les dignités : en un mot tout ce qui n’est pas notre œuvre",
+        "Et les choses qui dépendent de nous sont par nature libres ; nul ne peut les empêcher, rien ne peut les entraver ; mais celles qui ne dépendent pas de nous sont impuissantes, esclaves, sujettes à empêchement, étrangères à nous",
+        "Souviens-toi donc que, si tu crois libres ces choses qui de leur nature sont esclaves, et propres à toi celles qui sont étrangères, tu seras entravé, affligé, troublé, tu accuseras dieux et hommes[4]. Mais si tu crois tien cela seul qui est tien, et étranger ce qui en effet t’est étranger, nul ne te forcera jamais à faire une chose, nul ne t’en empêchera ; tu ne te plaindras de personne, tu n’accuseras personne ; tu ne feras pas involontairement une seule action ; personne ne te nuira, et d’ennemi, tu n’en auras point, car tu ne pourras pas même souffrir rien de nuisible",
+        "Aspirant donc à de si grandes choses, souviens-toi que ce n’est pas avec une ardeur médiocre qu’il faut t’y appliquer : parmi les objets étrangers, tu dois pour jamais dire adieu aux uns, et pour le présent ajourner les autres[6]. Car, si tu veux avoir en même temps et les vrais biens et les dignités ou les richesses[7], peut-être n’obtiendras-tu même pas ces dernières pour avoir désiré les autres ; mais à coup sûr tu n’obtiendras pas les biens qui donnent seuls liberté et bonheur.",
+        "Aussitôt donc, devant toute imagination pénible, exerce-toi à dire : Tu es imagination et apparence, nullement l’objet que tu parais être. — Ensuite sonde-la, et juge-la avec les règles que tu possèdes : la première et la principale, c’est de voir s’il s’agit des choses qui dépendent de nous ou de celles qui n’en dépendent pas. S’agit-il de ces dernières, sois prêt à dire : Il n’y a rien là qui me regarde, moi"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Les choses qui ne dépendent pas de nous ne sont ni à désirer ni à craindre.",
+      "content": [
+        "Souviens-toi que ce qu’on se promet dans le désir, c’est d’obtenir l’objet désiré, ce qu’on se promet dans l’aversion, c’est d’éviter l’objet en aversion ; et celui qui est frustré dans son désir est malheureux, celui qui tombe dans ce qu’il fuit, misérable. Fuis donc seulement les choses qui, dépendant de toi, sont contraires à la nature, et tu ne tomberas point dans ce que tu fuis[9]. Mais si tu veux éviter la maladie, ou la mort, ou la pauvreté, tu seras misérable.",
+        "Écarte donc ton aversion de toutes les choses qui ne dépendent pas de nous, et reporte-la sur les choses qui, dépendant de nous, sont contraires à la nature. Quant au désir, supprime-le tout-à-fait en ce moment[10]. Car, si tu désires quelqu’une de ces choses qui ne dépendent pas de nous, tu seras nécessairement malheureux : et d’un autre côté, parmi les choses qui dépendent de nous et qu’il serait beau de désirer, aucune pour toi n’est encore présente[11]. Borne-toi donc à t’approcher ou à t’éloigner des choses par un mouvement volontaire, mais peu énergique, avec des réserves et en modérant ton élan[12]."
+      ]
+    },
+    {
+      "id": "3",
+      "title": "On doit examiner la nature de chaque objet dont on se sert.",
+      "content": [
+        "Devant chacun des objets qui attirent l’âme, ou qui apportent avec eux une utilité, ou qui se font chérir, souviens-toi de te demander quelle est la nature de cet objet. Commence par les petites choses, et si tu aimes un vase d’argile, dis : — C’est un vase d’argile que j’aime — ; car, s’il se brise, tu n’en seras pas troublé[13]. Si tu embrasses ton enfant ou ta femme, dis : — C’est un être humain que j’embrasse — ; car, s’il meurt, tu n’en seras pas troublé[14]."
+      ]
+    },
+    {
+      "id": "4",
+      "title": "On doit examiner la nature de chaque action qu’on entreprend",
+      "content": [
+        "Quand tu es sur le point d’entreprendre quelque action, rappelle en ta mémoire de quelle nature est cette action. Vas-tu te baigner, représente-toi ce qui se passe aux bains, les gens qui jettent de l’eau aux autres, qui les poussent, qui les injurient, qui les volent, et tu entreprendras plus sûrement ton action, si tu te dis tout d’abord : je veux me baigner, mais je veux aussi conserver mon libre-arbitre conforme à la nature[15].",
+        "Et de même dans chaque action[16]. Car de cette manière, si pendant le bain quelque empêchement te survient, tu seras prêt à dire : Je ne voulais pas seulement me baigner, mais aussi conserver mon libre-arbitre conforme à la nature ; et je ne le conserverai pas si je m’irrite contre ce qui arrive."
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Ce qui seul peut nous troubler, ce sont nos opinions.      ",
+      "content": [
+        "Ce qui trouble les hommes, ce ne sont pas les choses, mais leurs opinions sur les choses[17]. Par exemple, la mort n’est rien de terrible, car Socrate aussi l’aurait trouvée terrible ; mais notre opinion sur la mort, qui nous la fait regarder comme terrible, voilà ce qui est terrible[18]. Lors donc que nous sommes entravés, ou troublés, ou affligés, n’accusons jamais autrui, mais nous-mêmes, c’est-à-dire nos opinions. Œuvre d’ignorant, que d’accuser les autres de ses propres maux ; l’homme qui commence à s’instruire s’accuse lui-même[19] ; l’homme instruit, ni les autres ni soi[20]."
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Ce qui seul doit nous rendre fiers, c’est le bon usage que nous faisons de nos opinions.",
+      "content": []
+    },
+    {
+      "id": "7",
+      "title": "Tout ce qui n’est pas nous ne doit être pour nous qu’un accessoire.",
+      "content": [
+        "Si, dans un voyage sur mer, ton vaisseau aborde et que tu en sortes pour faire provision d’eau, tu peux, en passant, ramasser sur ton chemin un coquillage ou une plante ; mais il faut que tu aies l’attention fixée sur le navire, et que, sans cesse, tu regardes derrière toi si par hasard le pilote ne t’appelle point ; et vient-il à t’appeler, laisse tout cela de peur qu’il ne te fasse enchaîner et jeter au fond du vaisseau, comme le bétail[24]. De même dans la vie, s’il t’est donné, au lieu de plante et de coquillage, une femme et un enfant, rien ne t’empêche de les recevoir ; mais si le pilote t’appelle, cours au navire, laissant toutes ces choses, ne te retournant même pas[25]. Et si tu es vieux, ne t’écarte jamais du navire, de peur qu’à l’appel du pilote tu ne fasses défaut[26]."
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Savoir céder à la nécessité, c’est être libre.",
+      "content": [
+        "Ne demande pas que ce qui arrive arrive comme tu le veux, mais veux ce qui arrive comme il arrive, et tu couleras une vie heureuse[27]."
+      ]
+    },
+    {
+      "id": "9",
+      "title": "L’homme ne peut rencontrer d’autre obstacle que lui-même.",
+      "content": [
+        "La maladie est pour le corps un obstacle, mais pour le libre arbitre, nullement, s’il ne le veut lui-même. Boiter est pour la jambe un obstacle, mais nullement pour le libre arbitre. Sur tout ce qui arrive, dis de même. Tu trouveras que c’est un obstacle pour quelque autre chose, mais pour toi, non."
+      ]
+    },
+    {
+      "id": "10",
+      "title": "À chaque idée ou image qui nous vient du dehors, correspond en nous une faculté capable d’en faire usage.",
+      "content": [
+        "La maladie est pour le corps un obstacle, mais pour le libre arbitre, nullement, s’il ne le veut lui-même. Boiter est pour la jambe un obstacle, mais nullement pour le libre arbitre. Sur tout ce qui arrive, dis de même. Tu trouveras que c’est un obstacle pour quelque autre chose, mais pour toi, non."
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Perdre et rendre.",
+      "content": [
+        "Sur quoi que ce soit, ne dis jamais : J’ai perdu cela ; mais : Je l’ai rendu. Ton fils est mort ? tu l’as rendu. Ta femme est morte ? tu l’as rendue[29]. — On m’a pris ma terre. — Encore une chose que tu as rendue. — Mais c’est un méchant qui me l’a prise. — Que t’importe par qui celui qui te l’a donnée te l’a redemandée ? Tant qu’il te la laisse, uses-en comme d’une chose étrangère, comme usent d’une hôtellerie ceux qui passent[30]."
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Le renoncement à toutes les choses extérieures est le prix dont s’achète le bonheur.",
+      "content": [
+        "Veux-tu avancer dans la sagesse, laisse ces raisonnements : « Si je néglige mes biens, je n’aurai pas de quoi vivre ; si je ne châtie pas mon esclave, il sera méchant. Car il vaut mieux mourir de faim en restant exempt de tristesse et de crainte, que de vivre dans l’abondance, l’âme troublée ; et il vaut mieux que ton esclave soit méchant, que toi malheureux[31].",
+        "Commence donc par les petites choses. Ta petite provision d’huile est répandue ? on t’a pris ta piquette ? dis-toi : « À ce prix s’achète l’impassibilité, à ce prix l’imperturbabilité : on n’a rien pour rien. » Et lorsque tu appelles ton esclave, pense en toi-même : « Il peut ne pas entendre, ou, ayant entendu, ne rien faire de ce que je veux ; mais il n’aura pas cet avantage, que le calme de mon âme soit en sa dépendance. »"
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Paraître et être.",
+      "content": [
+        "Veux-tu avancer dans la sagesse, souffre, à l’égard des choses extérieures, de passer pour fou et imbécile[32]. Consens à paraître ne rien savoir ; et si quelques-uns te remarquent, défie-toi de toi-même. Sache qu’il n’est pas facile de garder à la fois et ton libre-arbitre conforme à la nature et les biens du dehors ; mais il est de toute nécessité, si tu t’occupes d’une de ces choses, que tu négliges l’autre[33]."
+      ]
+    },
+    {
+      "id": "14",
+      "title": "On peut devenir indépendant de tout homme en devenant maître de ses désirs sur toutes choses.",
+      "content": [
+        "Si tu veux que tes enfants et ta femme et tes amis vivent toujours, tu es fou ; car tu veux que les choses qui ne dépendent pas de toi en dépendent, et que celles qui te sont étrangères soient tiennes. De même, si tu veux que ton esclave ne fasse pas de faute, tu es un sot : car tu veux que le vice ne soit pas le vice, mais autre chose[34]. Au contraire, si tu veux ne pas être frustré dans tes désirs, tu le peux[35]. Applique-toi donc à ce que tu peux.",
+        "Celui-là est toujours maître d’un autre homme, qui a le pouvoir de lui procurer ce qui lui plaît, de lui ôter ce qui lui déplaît. Tu veux être libre : ne désire ou ne fuis rien de ce qui dépend d’autrui ; sinon tu seras nécessairement esclave[36]."
+      ]
+    },
+    {
+      "id": "15",
+      "title": "La vie comparée à un banquet.",
+      "content": [
+        "Souviens-toi que tu dois te conduire dans la vie comme dans un banquet. Un plat qui fait le tour de la table vient-il à toi ? étendant la main, prends-le avec décence. Passe-t-il au delà ? ne le retiens point. Il ne vient pas encore ? N’étends pas au loin ton désir, mais attends que le plat arrive de ton côté. Uses-en ainsi avec des enfants, ainsi avec une femme, ainsi avec les dignités, ainsi avec les richesses, et tu seras un jour un convive digne des dieux[37]. Si même tu ne prends pas ce qu’on t’offre, mais le dédaignes, alors, non-seulement tu seras le convive des dieux, mais leur collègue[38]. Ainsi faisaient et Diogène[39] et Héraclite[40] et ceux qui leur ressemblent : ils étaient divins et à bon droit passaient pour tels."
+      ]
+    },
+    {
+      "id": "16",
+      "title": "On doit manifester la pitié sans l'éprouver.",
+      "content": [
+        "Lorsque tu vois quelqu’un gémissant parce qu’il est dans le deuil, ou parce que son fils part en voyage, ou parce que lui-même a perdu ses biens, prends garde que cette représentation ne t’emporte avec elle, et que tu ne te figures cet homme en butte à des maux placés en dehors de sa volonté ; mais aussitôt sois prêt à dire : — « Ce qui accable cet homme, ce ne sont pas les événements ; car un autre n’en est point accablé ; ce sont ses opinions sur les événements[41] ». — Pourtant n’hésite pas à condescendre, en paroles seulement, à sa douleur ; et même, au besoin, gémis avec lui : mais garde-toi de gémir aussi intérieurement[42]."
+      ]
+    },
+    {
+      "id": "17",
+      "title": "La vie humaine comparée à un théâtre.",
+      "content": [
+        "Souviens-toi que tu es acteur dans une comédie, celle qui plaît au maître[43] : s’il la veut longue, joue-la longue ; si courte, joue-la courte : s’il veut que tu joues le rôle d’un pauvre, joue-le avec grâce ; de même si c’est celui d’un boiteux, d’un magistrat, d’un plébéien. Car c’est ton fait de bien jouer le rôle qui t’est donné ; mais le choisir, c’est le fait d’un autre[44]."
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Les présages.",
+      "content": [
+        "Quand le corbeau jette un croassement de mauvais augure, que l’imagination ne t’emporte point ; mais aussitôt, fais en toi-même une distinction et dis : rien ne me regarde dans ces présages, mais ils regardent ou mon chétif corps, ou mon petit bien, ou ma petite réputation, ou mes enfants, ou ma femme[45]. Pour moi, tous présages sont heureux, si je le veux : car, quoi qu’il en arrive, il dépend de moi d’en tirer du bien."
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Comment on peut être invincible. Placer le bien en nous seuls, est le moyen de supprimer en nous l’envie.",
+      "content": [
+        "Tu peux être invincible, si tu ne descends au combat que lorsqu’il est en ton pouvoir de vaincre.",
+        "Prends garde qu’en voyant quelqu’un honoré, ou élevé à une grande puissance, ou florissant de quelque autre manière, tu ne le juges heureux, emporté par ton imagination[46]. Si en effet l’essence du bien réside dans ce qui dépend de nous, ni l’envie ni la jalousie n’auront plus de lieu[47]. Et toi-même tu ne voudras pas être général, ou préfet, ou consul, mais libre ; or, une seule voie y mène : le mépris de ce qui ne dépend pas de nous."
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Nul outrage ne peut nous venir d’autrui, mais de nous mêmes.",
+      "content": [
+        "Rappelle-toi que ce n’est point celui qui t’injurie ou te frappe qui t’outrage ; mais c’est l’opinion que tu as d’eux, qu’ils t’outragent. Quelqu’un t’a irrité : sache que c’est ton opinion sur lui qui t’irrite. Efforce-toi donc, avant tout, de ne point te laisser emporter par ton imagination ; car, si une première fois tu gagnes du temps et un délai, il te sera plus facile ensuite de te maîtriser toi-même."
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Ce que nous devons avoir sans cesse devant les yeux.",
+      "content": [
+        "Que la mort, et l’exil, et toutes les choses qui semblent terribles soient chaque jour devant tes yeux, surtout la mort ; et jamais tu ne penseras rien de bas, jamais tu ne désireras rien avec excès[48]."
+      ]
+    },
+    {
+      "id": "22",
+      "title": "S'attacher au bien sans craindre la raillerie.",
+      "content": [
+        "Si tu aimes la philosophie, prépare-toi sur-le-champ à être raillé, à ce que la plupart rient de toi, à ce qu’ils s’écrient : « Après si peu de temps il nous revient philosophe ! » et : « Où a-t-il pris ce sourcil superbe[49] ? » — Toi, n’aie point la mine superbe ; mais attache-toi aux choses qui te semblent les meilleures, comme si Dieu même t’avait assigné ce poste : et souviens-toi que, si tu y demeures fixé, ceux qui te raillaient auparavant, ceux-là mêmes t’admireront[50] ; mais si tu cèdes à ces gens, tu t’attireras d’eux une double raillerie."
+      ]
+    },
+    {
+      "id": "23",
+      "title": "S'attacher au bien sans désirer la louange.",
+      "content": [
+        "Si par hasard il t’arrive de te tourner vers les choses du dehors dans le but de plaire à quelqu’un, sache que tu manques ton entreprise[51]. Qu’il te suffise donc en toute chose d’être philosophe. Et si tu veux le paraître, parais-le à toi-même : c’est en ton pouvoir[52]."
+      ]
+    },
+    {
+      "id": "24",
+      "title": "S’attacher à ce qui dépend de nous, c’est être vraiment utile à nous-même et aux autres, à nos amis, à la patrie.",
+      "content": [
+        "Que ces pensées ne t’affligent point : « Je vivrai sans honneur, comme un homme de rien ». Car si le déshonneur est un mal, tu ne peux tomber par le pouvoir d’autrui dans rien de mauvais ni de honteux. Est-ce donc ton fait d’obtenir une dignité ou d’être reçu dans un banquet ? Nullement. En quoi donc est-ce un déshonneur ? Et comment seras-tu un homme de rien ? n’est-ce donc pas seulement dans les choses qui dépendent de toi que tu dois te montrer quelqu’un ? et là, ne peux-tu pas acquérir le plus grand prix ?",
+        "Mais mes amis resteront sans secours. — Que dis-tu, sans secours ? Ils ne recevront pas de toi un peu d’argent, et tu n’en feras pas des citoyens romains ? Et qui t’a dit que ces choses sont parmi celles qui dépendent de nous, non parmi les œuvres qui nous sont étrangères ? Puis, qui peut donner à un autre ce qu’il n’a pas lui-même[53] ?",
+        "Amasse-donc, dis-tu, afin que nous possédions, nous aussi. — Si je puis amasser la richesse tout en me conservant plein de pudeur, et de foi, et de magnanimité, montre-moi la voie, et j’amasserai. Mais si vous me demandez que je perde mes biens, mes biens propres, afin que vous, vous acquériez des choses qui ne sont même pas des biens, voyez vous-mêmes combien vous êtes injustes et imprudents[54]. Eh quoi ! qu’aimez-vous donc mieux, de l’argent ou d’un ami plein de fidélité et de pudeur ? À devenir tel aidez-moi plutôt, et ne me demandez point de rien faire par quoi je perdrais de tels biens[55].",
+        "Mais, dis-tu, la patrie, pour ce qui me regarde, sera sans aide. — Encore une fois, quelle est cette aide dont tu parles ? Il est vrai qu’elle n’aura de toi ni portiques ni thermes ? Mais quoi ? Ce n’est pas non plus l’armurier qui lui fournit des chaussures, ni le cordonnier des armes. C’est assez que chacun remplisse son œuvre propre. Et si tu lui as préparé[56] quelque autre citoyen plein de foi et de pudeur, ne l’auras-tu servie en rien ? Loin de là. Ainsi donc toi-même tu n’auras pas été inutile à ta patrie[57] !",
+        "Quelle place donc, dis-tu, aurai-je dans la cité ? — Celle que tu pourras avoir en gardant ta foi et ta pudeur, mais si, en voulant servir ta cité, tu les perds, en quoi lui seras-tu utile, devenu impudent et malhonnête ?"
+      ]
+    },
+    {
+      "id": "25",
+      "title": "De quel prix on achète les bien extérieurs.",
+      "content": [
+        "Quelqu’un t’a été préféré dans un festin, dans une salutation ; on l’a de préférence admis dans un conseil : si ce sont là des biens, il faut te réjouir qu’ils lui soient échus ; si ce sont des maux, ne t’afflige point de ce qu’ils ne te sont pas échus ; mais souviens-toi que, ne faisant pas ce que font les autres pour obtenir les choses qui ne dépendent pas de nous, tu ne peux prétendre à une part égale.",
+        "Comment pourraient-ils avoir autant, et celui qui ne fréquente pas la porte de certain puissant et celui qui s’y présente sans cesse ? celui qui ne l’accompagne point et celui qui l’accompagne ? celui qui ne le flatte point et celui qui le flatte ? Tu es donc injuste et insatiable, si, ne donnant point le prix dont ces biens s’achètent, tu veux les recevoir gratis.",
+        "Combien vend-on les laitues ? une obole, je suppose. Si quelqu’un, donnant l’obole, reçoit les laitues, et que toi, ne la donnant point, tu ne les reçoives pas, ne crois pas avoir moins que celui qui les reçoit : comme il a les laitues, tu as l’obole, que tu n’as point donnée.",
+        "De même ici. Quelqu’un ne t’invite pas à un banquet ? C’est que tu ne lui as pas payé le prix qu’il vend son dîner : il le vend au prix d’une louange, d’une complaisance. Donne donc le prix auquel il le vend, si tu y trouves avantage. Mais si tu ne veux pas le donner et que tu veuilles prendre la chose, tu es insatiable et imbécile.",
+        "N’as-tu donc rien obtenu à la place de ce repas ? Ce que tu as obtenu, c’est de ne point avoir flatté celui que tu ne voulais pas flatter, et de n’avoir rien enduré de ses portiers[58]."
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Comment on peut connaître la loi de la nature.",
+      "content": [
+        "Nous pouvons apprendre le dessein de la nature par les choses où nous ne différons pas d’avis les uns à l’égard des autres. Par exemple, quand l’esclave d’un autre casse une coupe, te voilà prêt à dire : « C’est un accident ordinaire. » Sache donc que, si on te casse la tienne, il faut te montrer tel que tu étais quand celle de l’autre a été cassée. Transporte ce précepte aux actions plus importantes. Le fils d’un autre est mort, ou sa femme ? il n’est personne qui ne dise : « C’est chose humaine ! » Mais chacun, quand son propre fils est mort, s’écrie aussitôt : « Hélas ! malheureux que je suis ! » Il faudrait se rappeler quels sentiments nous éprouvons en apprenant que les mêmes maux sont arrivés à d’autres[59]."
+      ]
+    },
+    {
+      "id": "27",
+      "title": "Le but du monde.",
+      "content": [
+        "Comme on ne place pas un but pour le manquer, de même l’essence du mal n’existe pas dans le monde[60]."
+      ]
+    },
+    {
+      "id": "28",
+      "title": "La prostitution de l'âme.",
+      "content": [
+        "Si quelqu’un livrait ton corps au premier qui s’offre, tu t’indignerais ; mais toi, ta propre intelligence, tu la livres au premier venu, de sorte que, s’il t’injurie, elle se trouble et se bouleverse, et tu n’en as pas honte ?"
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Comment il faut examiner une action avant de l’entreprendre.",
+      "content": [
+        "Examine d’abord les antécédents et les conséquents de chaque action ; ensuite, mets-toi à l’œuvre. Sinon, tu partiras d’abord avec ardeur, sans songer aux suites, et plus tard, quand se montreront les pas difficiles, tu te retireras honteusement[61].",
+        "Tu veux vaincre à Olympie ? Et moi aussi, par les dieux ! car c’est une jolie chose. Mais examine ce qui précède et ce qui suit l’entreprise ; après cela mets-toi à l’œuvre. Il te faut observer la discipline, te soumettre au régime, t’abstenir de friandises, t’exercer forcément à une heure fixée, par le chaud, par le froid ; ne boire ni eau fraîche ni vin à l’aventure ; en un mot, comme à un médecin te livrer au maître d’exercices. Puis, dans la lutte, il faudra rouler dans la poussière, parfois te démettre la main, te tordre le pied, avaler beaucoup de sable ; parfois aussi être fouetté, et avec tout cela être vaincu.",
+        "Une fois tout considéré, si tu le veux encore, fais-toi athlète : autrement, tu te conduiras comme les enfants, qui tantôt jouent à l’athlète, tantôt au gladiateur, qui maintenant sonnent de la trompette et tout à l’heure déclameront la tragédie : ainsi fais-tu, athlète aujourd’hui, gladiateur demain, puis rhéteur, puis philosophe, est, de toute ton âme, rien[62]. Comme un singe, tout spectacle que tu vois, tu l’imites, et tu passes sans cesse d’un goût à un autre. Car ce n’est pas après examen que tu t’es mis à l’œuvre, ce n’est pas après avoir tourné tout autour de la chose pour l’étudier : c’est à l’étourdie, poussé par un frivole désir.",
+        "Ainsi certaines gens, parce qu’ils ont vu un philosophe, ou parce qu’ils en ont entendu un qui parlait comme parle Euphrate (et personne peut-il parler comme lui ?), veulent philosopher, eux aussi[63].",
+        "Homme, examine d’abord l’affaire en elle-même ; puis ta propre nature, et si tu peux porter un tel fardeau. Tu veux être pentathle, ou lutteur ? regarde tes bras, tes cuisses, éprouve tes reins : car tel homme est né pour une chose, tel autre pour une autre.",
+        "Penses-tu, quand tu entreprends d’être philosophe pouvoir encore manger et boire de la même manière, avoir les mêmes désirs et les mêmes dégoûts ? Il te faudra veiller, peiner[64], t’éloigner de ta famille, être méprisé d’un esclave, être raillé de ceux qui te rencontrent, être le dernier partout, dans les honneurs, dans les dignités, dans les tribunaux, dans la moindre affaire[65].",
+        "Considère toutes ces choses, et vois si tu veux, en échange, acquérir l’impassibilité, la liberté, l’imperturbabilité ; sinon, n’approche pas de nous ; ou, comme les enfants, tu seras aujourd’hui philosophe, demain publicain, ensuite rhéteur, ensuite procurateur de César. Toutes ces choses ne s’accordent pas ensemble. Il faut que tu sois un seul et même homme, ou bon ou mauvais ; il faut que tu donnes tes soins ou à la partie maîtresse de toi-même ou aux objets extérieurs ; il faut tourner ton art vers les choses du dedans ou vers celles du dehors, c’est-à-dire qu’il faut tenir le rang de philosophe ou d’homme ordinaire."
+      ]
+    },
+    {
+      "id": "30",
+      "title": "La mesure des devoirs.",
+      "content": [
+        "Les devoirs se mesurent en général aux relations où nous nous trouvons placés. Tu as un père : il t’est ordonné d’en avoir soin, de lui céder en tout, de supporter qu’il t’injurie, qu’il te frappe. — Mais j’ai un mauvais père. — Est-ce donc que tu es lié naturellement à un bon père ? Non, mais à un père. — Mon frère me fait injustice. — Conserve à son égard ton rang de frère ; et n’examine pas ce qu’il fait, mais ce que tu dois faire pour conformer ta volonté à la nature. Nul autre que toi, en effet, ne te lèsera si tu ne le veux, et tu ne seras lésé que si tu crois l’être. De même, à l’égard d’un voisin, d’un concitoyen, d’un général, tu trouveras quel est ton devoir, si tu examines les relations que tu soutiens avec eux[66]."
+      ]
+    },
+    {
+      "id": "31",
+      "title": "Le vrai culte envers la divinité",
+      "content": [
+        "Dans la piété à l’égard des dieux, sache que le principal est d’avoir sur eux des opinions droites[67], de croire qu’ils sont et qu’ils administrent toutes choses avec convenance et justice : que toi-même, tu as été créé pour leur obéir, pour accepter tout ce qui arrive, pour t’y conformer volontairement, comme à l’œuvre d’une intelligence très-bonne. De cette manière tu ne te plaindras jamais des dieux, et tu ne les accuseras jamais de te négliger.",
+        "Or, tu ne peux devenir tel, que si tu enlèves le bien et le mal des choses qui ne dépendent pas de nous, pour le placer dans celles-là seules qui dépendent de nous. En effet, si tu prends pour bonne ou pour mauvaise quelqu’une des choses étrangères, il est de toute nécessité que, lorsque tu te verras privé de celles que tu désires, ou tombé dans celles que tu crains, tu accuses et haïsses les auteurs de ces choses.",
+        "Tout être vivant, en effet, est né pour fuir et éviter les choses qui lui semblent nuisibles, et leurs causes ; pour aimer et admirer celles qui lui semblent utiles, et leurs causes. Aussi ne se peut-il faire qu’un homme qui croit avoir souffert quelque dommage, aime ce qui lui semble causer ce dommage ; de même qu’il est impossible qu’il se réjouisse du dommage même[68].",
+        "De là vient qu’un fils accable son père de reproches lorsque ce dernier ne partage pas avec lui ce qu’il prend pour des biens. De même, ce qui rendit ennemis Polynice et Étéocle, ce fut de croire que la tyrannie est un bien[69]. C’est encore pour cette raison, que le laboureur accable de reproches les dieux[70], et de même le matelot, et de même le marchand, et de même ceux qui ont perdu leurs femmes et leurs enfants. Car là où est l’utilité, là seulement est la piété[71]. Aussi, quiconque observe de ne désirer et de n’éviter que ce qu’il convient, observe par là même la piété.",
+        "Il faut toujours faire les libations, les sacrifices et les offrandes selon les rites de son pays, avec pureté, sans retard et sans négligence, sans parcimonie et sans prodigalité[72]."
+      ]
+    },
+    {
+      "id": "32",
+      "title": "Comment il faut consulter les oracles.",
+      "content": [
+        "Quand tu vas consulter l’art des devins, songes-y bien, tu ne sais sans doute pas ce qui doit arriver, et tu vas auprès du devin pour l’apprendre ; mais tu sais en y allant la qualité de ce qui doit arriver, si du moins tu es philosophe [73]. Car, si c’est une des choses qui ne dépendent point de nous, il est de toute nécessité que ce ne soit ni un bien ni un mal.",
+        "N’apporte donc auprès du devin ni désir ni aversion, et ne l’approche pas en tremblant, mais sache bien que tout ce qui arrivera est indifférent et ne te regarde en rien ; quoi que ce soit, il sera en ton pouvoir d’en user bien, et cela, personne ne t’en empêchera. Avec assurance donc, et comme vers des conseillers, va vers les dieux. Au reste, quand tu auras reçu d’eux un conseil, rappelle-toi quels conseillers tu as pris, et à qui tu désobéiras si tu n’as pas confiance en eux.",
+        "Va consulter l’oracle comme Socrate voulait qu’on y allât[74], sur ces choses seules où toutes les recherches n’ont rapport qu’à l’événement, et où l’on ne peut tirer secours ni de la raison ni d’aucun art pour connaître l’objet qu’on se propose[75]. Mais, quand il faudra t’exposer au péril pour un ami ou pour la patrie, ne demande pas à l’oracle si tu dois t’y exposer ; car si le devin t’annonce que les victimes n’ont pas été favorables, il est évident que ce signe te présage la mort, ou la perte de quelque membre, ou l’exil ; mais la raison démontre que, malgré toutes ces choses, il faut rester aux côtés d’un ami et s’exposer au danger pour la patrie. Écoute donc un plus grand devin, Apollon Pythien, qui chassa de son temple celui qui n’avait pas secouru son ami qu’on assassinait[76]."
+      ]
+    },
+    {
+      "id": "33",
+      "title": "D'un type idéal de conduite.",
+      "content": [
+        "Sans tarder fixe-toi à toi-même une sorte de caractère et de type de conduite auquel tu te conformeras, soit que tu te trouves seul en présence de toi-même, soit que tu te trouves en présence des hommes[77].",
+        "Garde le silence la plupart du temps, ou dis ce qui est nécessaire, et en peu de mots. Rarement, et lorsque l’occasion t’invite à parler, parle, mais jamais sur des choses de hasard, ni sur les gladiateurs, ni sur les jeux du cirque, ni sur les athlètes, ni sur les mets et les boissons, sujets qui sont dans toutes les bouches ; et surtout ne dis rien des hommes, ni pour blâmer, ni pour louer, ni pour faire des comparaisons.",
+        "Si tu le peux, par tes propres discours, amène les discours de tes compagnons vers ce qui est convenable ; si tu es entouré d’étrangers, tais-toi.",
+        "Ne ris ni beaucoup, ni de beaucoup de choses, ni sans retenue[78].",
+        "Refuse en toute chose de jurer, s’il se peut ; sinon, jure le moins possible.",
+        "Rejette les banquets avec les gens du dehors et les hommes du commun. Si parfois l’occasion s’en présente, fixe alors sur toi-même ton attention, de peur de te laisser tomber dans les manières communes. Car, sache-le, celui qui fréquente un compagnon impur en sera lui aussi souillé, fût-il d’ailleurs pur en lui-même.",
+        "De tout ce qui regarde le corps, comme le manger, le boire, les vêtements, la maison, les gens de la maison, n’aie que le strict nécessaire. Tout ce qui est pour l’ostentation ou la sensualité, supprime-le entièrement.",
+        "Quant aux plaisirs de Vénus, reste pur autant que possible avant le mariage ; si tu les goûtes, que ce soit suivant la loi. Mais ne reprends pas avec importunité ceux qui en usent autrement, et ne vante pas sans cesse ta continence[79].",
+        "Si on te rapporte qu’un tel a mal parlé de toi, ne te justifie point de ce qu’on a dit ; réponds seulement : « Il ignorait sans doute les autres défauts qui sont en moi ; car il n’eût point parlé seulement de ceux-là[80] »",
+        "Il n’est pas nécessaire d’aller souvent aux théâtres ; quand l’occasion s’en présente, parais-y, n’ayant de zèle et d’étude pour aucun des partis[81], mais pour toi-même : c’est-à-dire ne désire de voir arriver que ce qui arrive, et de voir vaincre que le vainqueur ; ainsi rien ne t’entravera. Évite tout à fait d’acclamer personne, de rire de personne, de prendre part aux grands mouvements de la foule. Et à ton retour, ne parle pas longuement des événements qui se sont passés, toutes choses qui ne contribuent en rien à rendre ton âme droite : car tu semblerais avoir été jeté dans l’étonnement par le spectacle[82].",
+        "Ne va ni par hasard ni par légèreté aux lectures de certaines gens ; mais, si tu t’y trouves, conserve ta gravité, ta tranquillité, et évite d’être importun[83].",
+        "Quand tu dois avoir un entretien avec quelqu’un, surtout avec ceux qui passent pour les premiers de la ville, propose-toi ce qu’auraient fait en cette rencontre Socrate ou Zénon ; et ainsi, sans incertitude, tu tireras bon parti de tout événement.",
+        "Quand tu vas rendre tes soins à quelque homme puissant, représente-toi que tu ne le trouveras pas, ou que tu ne seras pas reçu, ou que les portes te seront fermées au visage, ou qu’il ne s’occupera pas de toi. Si, malgré cela, il convient que tu ailles, va et supporte ce qui t’arrive, sans jamais te dire à toi-même : « Cela n’en valait pas la peine. » Car c’est le langage d’un homme vulgaire et qui s’offense des choses du dehors[84].",
+        "Dans la conversation, abstiens-toi de rappeler sans cesse et sans mesure tes exploits et les périls que tu as courus ; car, si tu prends plaisir à les raconter, les autres n’en trouvent point à les entendre.",
+        "Ne cherche point à faire rire : le pas est glissant, et tu tomberais dans les mœurs du vulgaire en même temps que tu perdrais le respect de tes amis.",
+        "   Il est dangereux aussi de se laisser aller à des propos obscènes. Quand tu assistes par hasard à de tels propos, blâme vigoureusement celui qui les tient, si l’occasion est opportune ; sinon, par ton silence, par ta rougeur, par la sévérité de ton visage, montre que tu t’indignes de tels discours."
+      ]
+    },
+    {
+      "id": "34",
+      "title": "Comment on peut lutter contre le plaisir.",
+      "content": [
+        "Si l’image de quelque volupté se présente, veille sur toi, comme tu fais pour toutes les autres images, et ne te laisse pas emporter par elle ; mais que la chose t’attende, et obtiens de toi-même quelque délai[85]. Ensuite compare les deux moments, l’un où tu jouiras de la volupté, l’autre où, après en avoir joui, tu te repentiras et te feras à toi-même des reproches ; puis oppose-leur la joie que tu éprouveras si tu t’abstiens, et les louanges que tu te donneras à toi-même. Te semble-t-il opportun d’entreprendre l’action ? prends garde de te laisser vaincre par ses charmes et ses plaisirs et ses séductions ; mais oppose-leur une chose qui vaut mieux : la conscience d’avoir soi-même vaincu dans ce combat."
+      ]
+    },
+    {
+      "id": "35",
+      "title": "Pourquoi craindre d’être vu en agissant ?",
+      "content": [
+        " Lorsque, sachant bien que tu dois faire une chose, tu la fais, n’évite jamais d’être vu en la faisant, même si le vulgaire doit en penser du mal. Car si tu as tort d’agir ainsi, fuis l’action même ; et si tu n’as pas tort, pourquoi crains-tu ceux qui te blâmeront à tort[86] ?"
+      ]
+    },
+    {
+      "id": "36",
+      "title": "Il faut séparer dans notre conduite le corps de l’ame comme la nuit du jour.",
+      "content": [
+        "Ces propositions, « Il est jour, » « Il est nuit, » ont une grande valeur si on les énonce séparément, et, si on les joint ensemble, n’en ont plus ; de même, prendre pour soi la meilleure part, c’est chose excellente par rapport au corps ; mais, si l’on considère les devoirs de sociabilité, qu’on doit observer dans un banquet, c’est chose indigne[87]. Lors donc que tu dîneras avec quelqu’un, souviens-toi de ne pas seulement regarder la qualité des mets pour le corps, mais encore de conserver le respect à l’égard du maître du banquet."
+      ]
+    },
+    {
+      "id": "37",
+      "title": "Ne pas changer notre rôle.",
+      "content": [
+        "Si tu prends un rôle au-dessus de tes forces, tu le joues mal ; et celui que tu pouvais remplir, tu l’abandonnes."
+      ]
+    },
+    {
+      "id": "38",
+      "title": "Le faux pas.",
+      "content": [
+        "Comme, en te promenant, tu prends garde de marcher sur un cor ou de te fouler le pied, de même prends garde de blesser la partie maîtresse de toi-même[88]. Si nous songeons à cela dans chaque action, plus sûrement nous pourrons nous mettre à l’œuvre."
+      ]
+    },
+    {
+      "id": "39",
+      "title": "La mesure de la propriété.",
+      "content": [
+        "La vraie mesure de la possession doit être pour chacun le besoin du corps, comme le pied est la mesure de la sandale. Si tu te renfermes dans ces bornes, tu garderas la mesure ; si tu les passes, tu seras entraîné désormais comme dans un précipice. De même pour les souliers, s’ils excèdent les besoins de ton pied : tu les voudras d’abord dorés, puis de pourpre, puis brodés ; car, une fois la mesure passée, il n’est plus aucune borne."
+      ]
+    },
+    {
+      "id": "40",
+      "title": "De l'éducation des femmes.",
+      "content": [
+        "Les femmes ont à peine atteint leur quatorzième année que les hommes les appellent leurs maîtresses : elles jugent de là que nulle autre qualité n’est en elles, si ce n’est de pouvoir servir aux plaisirs des hommes ; elles commencent donc à se parer, et dans leur parure mettent tout leur espoir. Mais c’est chose digne à tenter, que de leur faire sentir que rien ne peut les rendre respectables, si ce n’est la modestie et la pudeur[89]."
+      ]
+    },
+    {
+      "id": "41",
+      "title": "C’est sottise que de prendre trop soin de son corps.",
+      "content": [
+        "Signe de sottise, que de s’attarder aux soins du corps, comme de s’exercer longtemps, de manger longtemps, de boire longtemps, de donner beaucoup de temps aux autres nécessités corporelles. Toutes ces choses doivent se faire par accessoire ; que vers l’esprit soient tournés tous nos soins[90] !"
+      ]
+    },
+    {
+      "id": "42",
+      "title": "Être doux envers ceux qui font mal, car ils se trompent.",
+      "content": [
+        "Quand quelqu’un te fait du tort, ou dit du mal de toi, souviens-toi qu’il le fait ou le dit en croyant faire ce qui est pour lui convenable : il n’est donc pas possible qu’il suive ton opinion, mais la sienne ; et si son opinion est vicieuse, c’est lui qui a le mal, puisque c’est lui qui a l’erreur. Et en effet, si quelqu’un croit faux un syllogisme vrai, ce n’est pas le syllogisme qui en souffre, mais l’homme qui se trompe[91]. En partant de là, tu te conduiras avec douceur envers celui qui t’injuriera ; car tu te diras, à chaque injure : « Cela lui a paru bon[92]. »"
+      ]
+    },
+    {
+      "id": "43",
+      "title": "Les deux anses.",
+      "content": [
+        "Chaque chose a deux anses : par l’une elle est facile à porter ; par l’autre, impossible. Ton frère te fait-il une injustice, ne prends pas la chose par le côté de l’injustice : car c’est l’anse par où on ne saurait la porter ; mais plutôt prends-la par ce côté : c’est un frère, un homme nourri avec toi ; et tu prendras la chose par où elle est supportable."
+      ]
+    },
+    {
+      "id": "44",
+      "title": "Ne pas confondre soi et ce qui est à soi.",
+      "content": [
+        "C’est mal raisonner que de dire : « Je suis plus riche que vous, donc je suis meilleur que vous ; je suis plus disert, donc je suis meilleur. » Pour mieux raisonner, il faut dire : « Je suis plus riche que vous, donc mes richesses surpassent les vôtres ; je suis plus disert, donc mes discours surpassent les vôtres. » Mais toi, tu n’es ni richesses, ni discours."
+      ]
+    },
+    {
+      "id": "45",
+      "title": "Ne pas juger la conduite d'autrui.",
+      "content": [
+        "Quelqu’un se baigne de bonne heure[93]. Ne dis pas : « Il fait mal » ; mais dis : « C’est de bonne heure. » Quelqu’un boit beaucoup de vin. Ne dis pas : « Il fait mal ; » mais dis : « C’est beaucoup. » Car avant de connaître le motif de sa décision, d’où sais-tu s’il fait mal[94] ? Ainsi il ne t’arrivera pas de voir et de comprendre une chose, et de prononcer sur une autre[95]."
+      ]
+    },
+    {
+      "id": "46",
+      "title": "Ne pas se dire philosophe, mais l'être.",
+      "content": [
+        "Ne te dis jamais philosophe, et ne bavarde point sur les théories philosophiques devant le vulgaire ; mais fais ce qui découle de ces théories : de même, dans un festin, ne dis pas comment il faut manger, mais mange comme il faut. Souviens-toi à quel point Socrate avait rejeté toute ostentation. Des jeunes gens venaient le trouver pour qu’il les recommandât à d’autres philosophes, et il les leur conduisait : ainsi il supportait le dédain[96] !",
+        "Lorsque, chez des ignorants, la conversation tombe sur quelque question théorique, tais-toi presque toujours ; car il y a grand danger à vomir aussitôt ce que tu n’as pas digéré[97]. Et si on te dit que tu ne sais rien, et que tu ne t’en piques pas, sache alors que tu as déjà mis la main à l’œuvre de la sagesse. Car les brebis ne vont pas montrer aux bergers combien elles ont mangé d’herbe ; mais, après avoir au dedans digéré leur pâture, elles produisent au dehors laines et lait. Toi aussi, devant le vulgaire, n’expose pas les préceptes, mais, après les avoir digérés, les œuvres qui en naissent[98]."
+      ]
+    },
+    {
+      "id": "47",
+      "title": "Être austère, sans s'en vanter.",
+      "content": [
+        "Si tu as réglé avec frugalité tout ce qui concerne le corps, ne t’en vante point ; et si tu bois de l’eau, ne dis pas à tout propos : je bois de l’eau. Veux-tu parfois t’exercer à la peine ? que ce soit pour toi-même, non pour les autres. N’embrasse point les statues[99], mais quand tu as une soif ardente, prends de l’eau fraîche dans ta bouche et rejette-la, et ne le dis à personne."
+      ]
+    },
+    {
+      "id": "48",
+      "title": "Signes auxquels on reconnaît l’homme ordinaire et le philosophe.",
+      "content": [
+        "État et caractère de l’homme ordinaire : jamais il n’attend de lui-même l’utile ou le nuisible, mais des choses du dehors",
+        "État et caractère du philosophe : tout ce qui est utile ou nuisible, il l’attend de lui-même.",
+        "Signes qu’un homme avance dans la sagesse : il ne blâme, il ne loue personne ; de personne ne se plaint, n’accuse personne ; ne parle point de lui-même, comme s’il était quelque chose ou savait quelque chose. S’il est empêché ou entravé en quelque affaire, il s’accuse seul ; si on le loue, il rit en lui-même de qui le loue[100] ; si on le blâme, il ne se défend pas[101]. Mais il se tâte et s’observe, comme les convalescents, craignant de troubler en quelque chose le calme qui naît en lui, avant qu’il ait pris consistance.",
+        "Il a enlevé de lui tout désir, il a transporté son aversion vers ces choses seules qui, dépendant de nous, sont contraires à la nature. Il modère ses élans vers toutes choses. S’il passe pour sot ou ignorant, il n’en a souci. En un mot, il se garde de lui-même comme d’un ennemi, comme de quelqu’un qui lui dresse des embûches."
+      ]
+    },
+    {
+      "id": "49",
+      "title": "Commenter les philosophes n'est pas philosopher.",
+      "content": [
+        "Si quelqu’un se vante de pouvoir comprendre et expliquer les ouvrages de Chrysippe[102], dis en toi-même : Si Chrysippe n’eût écrit obscurément, cet homme n’aurait donc rien dont il pût se glorifier[103] ? Pour moi, qu’est-ce que je veux ? Connaître la nature, et la suivre. Je cherche donc qui peut me l’expliquer, et ayant entendu dire que c’est Chrysippe, je vais à lui. Mais je ne comprends pas ses écrits : je cherche qui me les explique. Jusqu’ici, rien dont je puisse être fier. Mais quand j’ai trouvé l’interprète, il me reste à pratiquer les préceptes qu’il m’explique : c’est là seulement ce qui peut me rendre fier. Et si je me contente d’admirer l’art d’interpréter, que suis-je autre chose qu’un grammairien, à la place d’un philosophe ? la seule différence, c’est que, au lieu d’Homère, j’explique Chrysippe. Que bien plutôt, si on me dit : « Explique-moi Chrysippe «, je rougisse de ne pouvoir montrer des actions en harmonie avec mes paroles !"
+      ]
+    },
+    {
+      "id": "50",
+      "title": "Les lois morales.",
+      "content": [
+        " À tous ces préceptes, comme à des lois que tu ne peux sans impiété transgresser, reste fidèle. De tout ce qu’on pourra dire de toi, ne prends souci : cela n’est plus ton fait."
+      ]
+    },
+    {
+      "id": "51",
+      "title": "Pratique et théorie.",
+      "content": [
+        "Jusques à quand tarderas-tu à te juger toi-même digne de réaliser le meilleur, et à ne plus transgresser en rien ce que te prescrit la raison ? Tu as reçu les principes que tu devais approuver, et tu les as approuvés ; quel maître attends-tu donc encore, pour rejeter sur lui le soin de te redresser, toi ? Tu n’es plus enfant, mais déjà homme fait. Si maintenant tu te négliges et t’apparesses, et que sans cesse tu mettes délais sur délais, et qu’un jour passé tu en fixes un autre après lequel tu commenceras à veiller sur toi, tu perdras même la conscience que tu ne fais point de progrès dans la sagesse, et tu vivras et mourras dans les mœurs vulgaires[104].",
+        "Déjà donc juge-toi digne de vivre comme un homme fait et qui avance dans la sagesse : que tout ce qui te paraît le meilleur soit pour toi une loi inviolable. S’offre-t-il quelque labeur ou quelque plaisir, la gloire ou l’infamie ? souviens-toi que c’est maintenant le combat, que voici les jeux Olympiques, et qu’il n’est plus permis de reculer : en un seul jour et en une seule affaire, ta sagesse naissante est perdue ou sauvée.",
+        "C’est ainsi que Socrate devint parfait, ne s’attachant à rien, dans toutes les choses qui s’offraient, qu’à la raison. Et toi, bien que tu ne sois pas encore Socrate, tu dois pourtant vivre comme quelqu’un qui veut le devenir."
+      ]
+    },
+    {
+      "id": "52",
+      "title": "Les trois parties de la philosophie.",
+      "content": [
+        "La première et la plus nécessaire partie de la philosophie est celle qui traite de la mise en pratique des théories : par exemple, ne point mentir[105]. La seconde, celle qui contient les démonstrations : par exemple, par quel principe on démontre qu’il ne faut pas mentir[106]. La troisième, celle qui confirme et explique les autres : par exemple, comment on s’assure que c’est une démonstration[107]  ? qu’est-ce qu’une démonstration ? qu’est-ce qu’un raisonnement conséquent ? qu’est-ce qu’une contradiction ? qu’est-ce qui est vrai, qu’est-ce qui est faux ?",
+        "La troisième partie est nécessaire à cause de la seconde, la seconde à cause de la première ; mais la plus nécessaire, et celle où il faut se reposer, c’est la première. Mais nous, nous faisons le contraire. Car nous nous attardons dans la troisième, et c’est sur elle que porte toute notre étude ; mais la première, nous la négligeons entièrement. C’est pourquoi nous mentons, mais les raisons par lesquelles on démontre qu’il ne faut pas mentir, nous les avons sous la main[108]."
+      ]
+    },
+    {
+      "id": "53",
+      "title": "Sentences diverses.",
+      "content": [
+        "En toute occasion aie présentes à l’esprit ces pensées :",
+        "Conduis-moi, Jupiter, et toi, Destinée,<br/>En quelque lieu que vous ayez fixé ma place,<br/>Je vous suivrai sans hésitation ; si je refusais,<br/>Je serais coupable, et je ne vous en suivrais pas moins[109].",
+        "« Quiconque sait céder à la nécessité,<br/>Nous le tenons pour sage et pour savant dans les choses divines[110]. »",
+        "« Ô Criton, s’il plaît ainsi aux dieux, qu’il en soit ainsi ! »",
+        "« Anytus et Mélitus peuvent me tuer, non me nuire[111]. »"
+      ]
+    }
+  ]
 }
