@@ -1,11 +1,12 @@
 import Head from 'next/head'
-import { useState } from 'react'
+import { FormEvent, useRef, useState } from 'react'
 import content from '../public/manuel.json'
 import Chapter from '../src/components/Chapter'
 import styles from '../styles/Home.module.css'
 
 const chapters = content.chapters
 const firstChapter = chapters[0]
+const maxLengthChapters = chapters.length
 
 export default function Home() {
   const [isChapterByChapterMode, setIsChapterByChapterMode] = useState<boolean>(
@@ -16,10 +17,12 @@ export default function Home() {
     firstChapter.id
   )
 
+  const chapterNumberInputRef = useRef<HTMLInputElement>(null)
+
   /**
    * Navigate to next chapter if it exists
    */
-  const handleNextChapter = () => {
+  const handleNextChapter = (): void => {
     const potentialNextChapter: string = (
       Number(currentChapterId) + 1
     ).toString()
@@ -31,7 +34,7 @@ export default function Home() {
   /**
    * Navigate to previous chapter if it exists
    */
-  const handlePreviousChapter = () => {
+  const handlePreviousChapter = (): void => {
     const potentialPreviousChapter: string = (
       Number(currentChapterId) - 1
     ).toString()
@@ -43,7 +46,7 @@ export default function Home() {
   /**
    * Display full text
    */
-  const buildFullContent = () =>
+  const buildFullContent = (): Array<JSX.Element> =>
     content.chapters.map(({ content, id, title }) => (
       <Chapter id={id} key={id + title} paragraphs={content} title={title} />
     ))
@@ -51,7 +54,7 @@ export default function Home() {
   /**
    * Display only chapter one by one
    */
-  const buildChapterByChapterContent = () => {
+  const buildChapterByChapterContent = (): JSX.Element => {
     const chapterToDisplay =
       chapters.find((chap) => chap.id === currentChapterId) ?? firstChapter
     return (
@@ -62,6 +65,24 @@ export default function Home() {
       />
     )
   }
+  /**
+   * Floor chapter number provided by user and if legal (a number && < max chapter number)
+   */
+  const handleClickOnChapterInputChange = (
+    event: FormEvent<HTMLFormElement>
+  ): void => {
+    event.preventDefault()
+
+    const roundedChapterNumber = Math.round(
+      Math.floor(Number(chapterNumberInputRef?.current?.value))
+    )
+    if (
+      typeof roundedChapterNumber === 'number' &&
+      roundedChapterNumber <= maxLengthChapters
+    ) {
+      setCurrentChapterId(roundedChapterNumber.toString())
+    }
+  }
 
   return (
     <div className={styles.container}>
@@ -69,29 +90,34 @@ export default function Home() {
         <title>Manuel d'Épictète</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-
-      <main className={styles.main}>
+      <header className={styles.header}>
         <h1>Manuel d'Épictète</h1>
-        <ul>
-          <li onClick={() => setIsChapterByChapterMode(true)}>
-            Chapitre par chapitre
-          </li>
-          <li onClick={() => setIsChapterByChapterMode(false)}>
-            Texte en une seule page
-          </li>
-        </ul>
-        {isChapterByChapterMode ? (
-          <>
-            <ul>
-              <li onClick={handlePreviousChapter}>Prev</li>
-              <li onClick={handleNextChapter}>Next</li>
-            </ul>
-            {buildChapterByChapterContent()}
-          </>
-        ) : (
-          buildFullContent()
-        )}
-      </main>
+        <div className={styles.arrowsAndChapterNumberInput}>
+          {/* Chapter number input */}
+          <form
+            className={styles.inputNumber}
+            onSubmit={handleClickOnChapterInputChange}
+          >
+            <label htmlFor={'chapterNumberInput'}>
+              Un n° de chapitre&nbsp;?
+            </label>
+            <input
+              id={'chapterNumberInput'}
+              max={maxLengthChapters}
+              min={1}
+              ref={chapterNumberInputRef}
+              type='number'
+            />
+            <button>Valider</button>
+          </form>
+          {/* Arrows */}
+          <div className={styles.prevAndNextIcons}>
+            <button onClick={handlePreviousChapter}>⇽</button>
+            <button onClick={handleNextChapter}>⇾</button>
+          </div>
+        </div>
+      </header>
+      <main className={styles.main}>{buildChapterByChapterContent()}</main>
       <footer className={styles.footer}>
         Traduction par{' '}
         <a
