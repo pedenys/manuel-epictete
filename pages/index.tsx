@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { FormEvent, useRef, useState } from 'react'
+import { FormEvent, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import content from '../public/manuel.json'
 import Chapter from '../src/components/Chapter'
 import styles from '../styles/Home.module.css'
@@ -9,9 +9,33 @@ const firstChapter = chapters[0]
 const maxLengthChapters = chapters.length
 
 export default function Home() {
-  const [isChapterByChapterMode, setIsChapterByChapterMode] = useState<boolean>(
-    true
-  )
+  const [displayFloatingMenu, setDisplayFloatingMenu] = useState<boolean>(false)
+  let chapterTitleHeight: number | undefined
+
+  useEffect(() => {
+    chapterTitleHeight =
+      document &&
+      document.querySelector("div[id^='chapter-'] h2")?.getBoundingClientRect()
+        .y
+
+    window.addEventListener('scroll', handleFloatingMenuDisplayBasedOnScroll)
+    return () =>
+      window.removeEventListener(
+        'scroll',
+        handleFloatingMenuDisplayBasedOnScroll
+      )
+  }, [])
+
+  const handleFloatingMenuDisplayBasedOnScroll = () => {
+    console.log('handleFloatingMenuDisplayBasedOnScroll')
+    if (chapterTitleHeight) {
+      if (window.scrollY > chapterTitleHeight && !displayFloatingMenu) {
+        setDisplayFloatingMenu(true)
+      } else {
+        setDisplayFloatingMenu(false)
+      }
+    }
+  }
 
   const [currentChapterId, setCurrentChapterId] = useState<string>(
     firstChapter.id
@@ -42,14 +66,6 @@ export default function Home() {
       setCurrentChapterId(potentialPreviousChapter)
     }
   }
-
-  /**
-   * Display full text
-   */
-  const buildFullContent = (): Array<JSX.Element> =>
-    content.chapters.map(({ content, id, title }) => (
-      <Chapter id={id} key={id + title} paragraphs={content} title={title} />
-    ))
 
   /**
    * Display only chapter one by one
@@ -111,7 +127,13 @@ export default function Home() {
             <button>Valider</button>
           </form>
           {/* Arrows */}
-          <div className={styles.prevAndNextIcons}>
+          <div
+            className={
+              displayFloatingMenu
+                ? styles.floatingPrevAndNextIcons
+                : styles.prevAndNextIcons
+            }
+          >
             <button onClick={handlePreviousChapter}>⇽</button>
             <button onClick={handleNextChapter}>⇾</button>
           </div>

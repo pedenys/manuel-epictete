@@ -16,6 +16,7 @@
 .main {
   margin: 0 auto;
   max-width: 800px;
+  padding: 0 0.5rem;
 }
 
 .main p {
@@ -71,7 +72,19 @@ form.inputNumber input {
 div.prevAndNextIcons button:first-of-type {
   margin-right: 1rem;
 }
+div.floatingPrevAndNextIcons button:first-of-type {
+  margin-right: 0.8rem;
+}
 
 div.prevAndNextIcons button {
   font-size: 1.4rem;
+}
+div.floatingPrevAndNextIcons button {
+  font-size: 1.2rem;
+}
+
+div.floatingPrevAndNextIcons {
+  position: fixed;
+  top: 20px;
+  right: 20px;
 }
