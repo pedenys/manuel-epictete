@@ -50,11 +50,11 @@ div.arrowsAndChapterNumberInput {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   margin: 1rem;
 }
 
 form.inputNumber {
-  margin-bottom: 0.8rem;
   text-align: left;
 }
 
@@ -79,6 +79,7 @@ div.floatingPrevAndNextIcons button:first-of-type {
 div.prevAndNextIcons button {
   font-size: 1.4rem;
 }
+
 div.floatingPrevAndNextIcons button {
   font-size: 1.2rem;
 }
@@ -87,4 +88,14 @@ div.floatingPrevAndNextIcons {
   position: fixed;
   top: 20px;
   right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  form.inputNumber {
+    margin-bottom: 1rem;
+  }
+
+  div.prevAndNextIcons button {
+    font-size: 1.2rem;
+  }
 }

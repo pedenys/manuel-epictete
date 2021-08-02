@@ -15,3 +15,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#chapterNumberInput {
+  width: 55px;
+}
