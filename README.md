@@ -13,4 +13,7 @@ Please be mindful to not confuse the text of Epictetus with the capitalist and p
 
 ## Todo 
 
+- [ ] better UX 
+- [ ] tags
+- [ ] better UI
 - [ ] PWA ready with offline mode 
