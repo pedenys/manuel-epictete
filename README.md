@@ -17,3 +17,7 @@ Please be mindful to not confuse the text of Epictetus with the capitalist and p
 - [ ] tags
 - [ ] better UI
 - [ ] PWA ready with offline mode 
+
+## Elsewhere
+
+- https://bedes.qui.gg/work/the-manual
